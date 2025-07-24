@@ -1,4 +1,7 @@
-<h1>🧠 AI Code Reviewer</h1>
+<h1>Python Internship Projects</h1>
+
+<h2>🧠 AI Code Reviewer</h2>
+<h2>🔊 PDF to Audiobook Converter</h2>
 
 An interactive web application to **analyze, format, and evaluate Python code quality** using:
 
@@ -49,3 +52,86 @@ This tool is perfect for:
 - Students learning clean code practices
 - Developers reviewing Python code quality
 - Teams integrating static analysis into review pipelines
+
+---
+
+# 🔊 PDF to Audiobook Converter
+
+A simple and powerful **web-based tool** to convert any PDF document into **spoken audio (MP3)** using **Python + Flask + gTTS**. Upload your PDF, convert it into speech, and download the audiobook—all from your browser!
+
+---
+
+## 📌 Features
+
+✅ Upload any `.pdf` file  
+✅ Extract and clean text from the PDF  
+✅ Convert the text into speech using `gTTS`  
+✅ Download the result as an `.mp3` file  
+✅ Beautiful HTML frontend (no Tkinter!)
+
+---
+
+## 🌐 Tech Stack
+
+| Layer      | Tool        |
+|------------|-------------|
+| **Frontend** | HTML, CSS |
+| **Backend**  | Flask (Python) |
+| **PDF Extraction** | PyMuPDF (`fitz`) |
+| **Text-to-Speech** | gTTS |
+| **Audio Handling** | pydub |
+| **Audio Playback** | HTML5 or download |
+
+---
+
+## 📁 Folder Structure
+
+```
+pdf-to-audiobook-converter/
+│
+├── app.py # Flask backend
+├── requirements.txt # All dependencies
+├── templates/
+│ └── index.html # HTML frontend
+├── static/
+│ └── style.css # Optional CSS styles
+├── uploads/ # Temporarily stores uploaded PDFs
+└── output/ # Stores generated MP3 files
+```
+---
+
+## 🔧 Installation
+
+Install all required packages:
+```bash
+pip install flask PyMuPDF gTTS pydub
+```
+
+---
+ 
+🚀 Run the App
+
+## Start the Flask server:
+
+```bash
+
+python app.py
+```
+
+## Visit in browser:
+
+```
+http://localhost:5000
+```
+## 🧠 How It Works
+- Upload a .pdf file via the browser.
+- PyMuPDF extracts and cleans text from the pages.
+- gTTS converts the text to speech.
+- The user downloads the resulting .mp3 file.
+
+---
+
+## 📣 Credits
+Created by Jai Ganesh H!
+Inspired by the idea of accessibility and learning through listening.
+
