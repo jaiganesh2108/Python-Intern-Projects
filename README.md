@@ -1,8 +1,11 @@
 <h1>Python Internship Projects</h1>
 
-<h2> 1. 🧠 AI Code Reviewer</h2>
-<h2> 2. 🔊 PDF to Audiobook Converter</h2>
+<h2> 1. AI Code Reviewer</h2>
+<h2> 2. PDF to Audiobook Converter</h2>
 
+---
+
+# 🧠 AI Code Reviewer
 An interactive web application to **analyze, format, and evaluate Python code quality** using:
 
 - 🧹 `flake8` for linting
