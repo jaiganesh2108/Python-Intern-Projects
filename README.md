@@ -9,12 +9,6 @@ An interactive web application to **analyze, format, and evaluate Python code qu
 
 ---
 
-## 📸 Demo
-
-![AI Code Reviewer Screenshot](https://user-images.githubusercontent.com/your-demo-image.png)
-
----
-
 ## 🚀 Features
 
 ✅ Paste or upload `.py` files  
